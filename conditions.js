@@ -1,6 +1,6 @@
 const MATH_PI = 3.14;
 const radius = 10;
-const result = MATH_PI * radius * radius;
+let result = MATH_PI * radius * radius;
 
 let result1 = 10 * 10;
 result1 *= MATH_PI;
@@ -23,7 +23,7 @@ let text3 = text1 + " " + text2;
 
 /* EQUALS */
 
-const name = "Robert";
+let name = "Robert";
 
 console.log(MATH_PI === 3.14);
 
@@ -61,9 +61,9 @@ const res2 = radius !== 0 || radius < 1000
 
 console.log("result 2 ", res2);
 
-a = 10;
-b = 100;
-c = 3;
+//a = 10;
+// b = 100;
+// c = 3;
 
 // example with if
 if (a === 10) {
@@ -90,7 +90,9 @@ const day = "1";
 
 switch (day) {
     case "1": {
+
         console.log("Monday");
+
     }
         break;
 
