@@ -1,3 +1,7 @@
+import sq from 'sequelize';
+import { myFuck } from './test';
+
+myFuck()
 const MATH_PI = 3.14;
 const radius = 10;
 let result = MATH_PI * radius * radius;
@@ -85,6 +89,7 @@ if (c > 1) {
 } else {
     console.log("c is smaller than 1");
 }
+
 
 const day = "1";
 
